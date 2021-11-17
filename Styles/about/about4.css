@@ -1,0 +1,119 @@
+@font-face {
+  font-family: mainlux;
+  src: url(../assets/fonts/digitype-studio-mainlux-light.otf) format("opentype");
+}
+@font-face {
+  font-family: mainlux-semibold;
+  src: url(../assets/fonts/FontsFree-Net-Mainlux-Semi-Bold.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: mainlux-semibold;
+  src: url(../assets/fonts/FontsFree-Net-mainlux-semibold.ttf) format("truetype");
+}
+@font-face {
+  font-family: poppins-semibold;
+  src: url(../assets/fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
+}
+
+.about-4 {
+  background: white;
+  margin: auto;
+  max-width: 1920px;
+}
+.about-4-heading {
+  text-align: center;
+  margin-top: 14%;
+  font-family: mainlux-semibold;
+  font-size: 3em;
+  color: #3d352e;
+  line-height: 1%;
+}
+
+.about-4-left-hr {
+  margin-top: 0.8em;
+  height: 3px;
+  border: none;
+  background: #f3cc52;
+  width: 6em;
+}
+
+.about-4-grid-item-heading {
+  font-family: mainlux-semibold;
+  font-size: 2rem;
+  color: #4e4e4e;
+}
+.about4-grid-item-digit {
+  font-family: poppins-semibold;
+  font-size: 3rem;
+  color: #e1984e;
+}
+
+.about4-row {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  margin-left: 4vw;
+  margin-right: 3em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3em;
+  grid-row-gap: 4em;
+}
+
+.about4-card {
+  vertical-align: center;
+}
+
+.about4-p {
+  font-family: mainlux-semibold;
+  color: #4e4e4e;
+  font-size: 1.4em;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 971px) {
+  .about4-column {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .about4-row {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .about4cardimg {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about4-heading {
+    font-size: 1.1em;
+  }
+  .about4-p {
+    font-size: 0.8em;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:400px) 
+{
+
+
+.about-4-heading {
+  text-align: center;
+  margin-top: 14%;
+  font-family: mainlux;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #3d352e;
+  line-height: 1%;
+}
+}

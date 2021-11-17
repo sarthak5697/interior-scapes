@@ -1,0 +1,128 @@
+@font-face {
+  font-family: mainlux;
+  src: url(../assets/fonts/digitype-studio-mainlux-light.otf) format("opentype");
+}
+@font-face {
+  font-family: mainlux-semibold;
+  src: url(../assets/fonts/FontsFree-Net-Mainlux-Semi-Bold.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: mainlux-bold;
+  src: url(../assets/fonts/FontsFree-Net-Mainlux-Bold.ttf) format("truetype");
+}
+
+.home4 {
+  background: white;
+  width: 100vw;
+
+  max-width:1920px;
+  margin: auto;
+}
+.home4-heading {
+  text-align: center;
+  margin-top: 14%;
+  text-align: center;
+  font-family: mainlux-semibold;
+  font-size: 3em;
+  color: #3d352e;
+  line-height: 1%;
+}
+
+.home4-left-hr {
+  margin-top: 0.8em;
+  height: 3px;
+  border: none;
+  background: #f3cc52;
+  width: 7em;
+}
+
+.home4-p-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.home4-p {
+  text-align: center;
+  font-family: mainlux-semibold;
+  font-size: 1.3rem;
+  color: #4e4e4e;
+}
+
+.home4-grid {
+  margin-top: 8%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 4em;
+  grid-row-gap: 0px;
+}
+
+.home4-grid-item {
+  padding: 10%;
+  padding-top: 0%;
+  align-items: center;
+}
+
+.home4-grid-item-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home4-grid-image-container {
+  overflow: hidden;
+}
+.home4-grid-image {
+  width: 100%;
+  transition: transform 0.5s;
+}
+.home4-grid-image:hover {
+  transform: scale(1.2);
+}
+
+.home4-grid-caption {
+  background: #f3eee8;
+  text-align: center;
+  width: 100%;
+  padding: 1em 0;
+  color: #363636;
+  font-family: mainlux-semibold;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 692px) {
+  .home4-grid-caption {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 505px) {
+  .home4-grid-caption {
+    font-size: 1em;
+  }
+  .home4-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .home4-p {
+    text-align: justify;
+    font-size: 0.9em;
+  }
+  .home4-grid-item-div {
+    width: 100%;
+  }
+  .home4-grid-image {
+    width: 100%;
+  }
+  .home4-grid-caption {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}

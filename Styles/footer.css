@@ -1,0 +1,113 @@
+@font-face {
+  font-family: mainlux;
+  src: url(../assets/fonts/digitype-studio-mainlux-light.otf) format("opentype");
+}
+@font-face {
+  font-family: mainlux-semibold;
+  src: url(../assets/fonts/FontsFree-Net-Mainlux-Semi-Bold.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: poppins-semibold;
+  src: url(../assets/fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(../assets/fonts/roboto/Roboto-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: roboto;
+  src: url(../assets/fonts/roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+.footer {
+  background-color: #f3eee8;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  max-width:1920px;
+  margin: auto;
+}
+
+.footer-container-left {
+  display: inline-block;
+}
+
+.footer-image {
+  margin-top: 2em;
+  margin-left: 4em;
+}
+.footer-left-card {
+  padding: 10%;
+  margin-top: 0em;
+  margin-bottom: 2em;
+  margin-right: 10%;
+}
+.card-col {
+
+  display: inline-block;
+}
+.card-row {
+  display: flex;
+  padding: 1em;
+}
+.card-text {
+  margin-left: 1em;
+}
+.card-p {
+  font-family: roboto-medium;
+  color: #5c5c5c;
+  font-size: 12px;
+}
+.card-contact {
+  font-family: roboto-medium;
+  color: #363636;
+  font-size: 18px;
+}
+
+.footer-container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 6em;
+}
+.footer-right1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.right-p1 {
+  font-family: roboto-medium;
+  font-size: 24px;
+}
+.right-p2 {
+  font-family: roboto;
+  font-size: 18px;
+}
+
+.footer-end {
+  background-color: #e1984e;
+  color: white;
+  font-size: 18px;
+  font-family: roboto;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1044px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-left-card {
+    width: 100vw;
+    margin-left: 0px;
+    padding: 0;
+  }
+  .footer-container-right {
+    width: 70%;
+    margin-left: 0;
+  }
+}

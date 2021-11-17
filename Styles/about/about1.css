@@ -1,0 +1,141 @@
+@font-face {
+  font-family: mainlux;
+  src: url(../assets/fonts/digitype-studio-mainlux-light.otf) format("opentype");
+}
+@font-face {
+  font-family: mainlux-semibold;
+  src: url(../assets/fonts/FontsFree-Net-Mainlux-Semi-Bold.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: mainlux-semibold;
+  src: url(../assets/fonts/FontsFree-Net-mainlux-semibold.ttf) format("truetype");
+}
+
+.about {
+  max-width: 100vw;
+  margin: auto;
+}
+
+.about_container {
+  background-color: #f3eee8;
+}
+
+.about-first {
+  /* width: 1920px; */
+  height: auto;
+  margin-bottom: 2rem;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.about1 {
+  background-color: #f3eee8;
+  display: inline-block;
+  max-width: 1920px;
+  margin: auto;
+  margin-top: 6vw;
+}
+
+.about1-head {
+  text-align: center;
+  padding-top: 5rem;
+  font-family: mainlux-semibold;
+  font-size: 47px;
+  /* font-weight: 600; */
+  color: #3d352e;
+  line-height: 100%;
+}
+
+.about1-hr {
+  height: 3px;
+  border: none;
+  background: #f3cc52;
+  width: 17em;
+}
+
+.about1-container {
+  display: flex;
+  margin: 5% 10% 10%;
+}
+
+.about-first-left {
+  width: 50vw;
+}
+.about-first-right {
+  width: 50vw;
+}
+
+.about-first-left-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about1-img-1 {
+  margin-right: 3em;
+}
+
+.img-head {
+  margin-top: 1em;
+  text-align: center;
+  font-family: mainlux-semibold;
+  font-size: 1.8em;
+  color: #3d352e;
+  line-height: 80%;
+}
+
+.img-subhead {
+  text-align: center;
+  font-family: mainlux-semibold;
+  font-size: 1.1em;
+  color: #3d352e;
+}
+
+.about2-p {
+  text-align: justify;
+  font-family: mainlux-semibold;
+  font-size: 1.1em;
+  color: #706458;
+}
+
+@media screen and (max-width: 1100px) {
+  
+
+
+  .about1-head {
+    text-align: center;
+    padding-top: 8rem;
+    font-family: mainlux;
+    font-size: 40px;
+    font-weight:bolder;
+    color: #3d352e;
+    line-height: 10%;
+  }
+  .about-first {
+    display: inline-block;
+  }
+  .about1-img-1 {
+    margin-right: 0;
+  }
+  .about1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about1-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-first-left {
+    width: 100%;
+  }
+  .about-first-right {
+    width: 100%;
+  }
+  .about-first-left-img {
+    flex-direction: column;
+  }
+}

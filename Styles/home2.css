@@ -1,0 +1,106 @@
+@font-face{
+    font-family: mainlux;
+    src: url(../assets/fonts/digitype-studio-mainlux-light.otf) format("opentype");
+}
+@font-face{
+    font-family: mainlux-semibold;
+    src: url(../assets/fonts/FontsFree-Net-Mainlux-Semi-Bold.ttf) format("truetype");
+}
+@font-face{
+    font-family: mainlux-bold;
+    src: url(../assets/fonts/FontsFree-Net-Mainlux-Bold.ttf) format("truetype");
+}
+@font-face{
+    font-family: poppins-semibold;
+    src: url(../assets/fonts/poppins/Poppins-SemiBold.ttf) format("truetype");
+}
+
+.home-second{
+    background: white;
+    width:100vw;
+    max-width:1920px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.home-second-heading{
+    text-align: center;
+    margin-top: 14%;
+    font-family: mainlux-semibold;
+    font-size: 3em;
+    color: #3d352e;
+    line-height: 1%;
+}
+
+.home-second-left-hr{
+    margin-top: 0.8em;
+    height: 3px;
+    border: none;
+    background: #f3cc52;
+    width:6em;
+}
+
+.home-second-grid-item-heading{
+    font-family: mainlux-semibold;
+    font-size: 2rem;
+    color: #4e4e4e;
+}
+.home2-grid-item-digit{
+    font-family: poppins-semibold;
+    font-size: 3rem;
+    color:#e1984e;
+}
+
+.home2-row{
+    display: flex;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content: space-evenly;
+}
+/* Float four columns side by side */
+.home2-column {
+    width: 25%;
+    padding: 0 1.4em;
+}
+
+.home2-p{
+    font-family: mainlux-semibold;
+    color:#4e4e4e;
+    font-size: 1.4em;
+
+    /* height: 144px;
+    left: 108px;
+    top: 1558px;
+
+    font-family: MAINLUX-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.5%; */
+
+}
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 971px) {
+    .home2-column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .home2-row{
+        flex-direction:column;
+        /* margin-bottom: -330px; */
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .home2-heading{
+        font-size: 1.1em;
+    }
+    .home2-p {
+      font-size: 1.1em;
+      width: 233px;
+
+    }
+
+  }

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: mainlux;
+  src: url(../assets/fonts/digitype-studio-mainlux-light.otf) format("opentype");
+}
+@font-face {
+  font-family: mainlux-semibold;
+  src: url(../assets/fonts/FontsFree-Net-Mainlux-Semi-Bold.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: mainlux-bold;
+  src: url(../assets/fonts/FontsFree-Net-Mainlux-Bold.ttf) format("truetype");
+}
+
+.home3-container {
+  margin-top: 5rem;
+  background: #f3eee8;
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  max-width:1920px;
+  margin: auto;
+}
+
+.home3-image {
+  float: flex-end;
+  width: 48vw;
+}
+
+@media screen and (max-width: 1044px) {
+  .home3-container {
+    flex-direction: column;
+  }
+
+  .home3-image {
+    width: 100vw;
+  }
+
+
+}

@@ -1,0 +1,66 @@
+@font-face{
+    font-family: mainlux;
+    src: url(../assets/fonts/digitype-studio-mainlux-light.otf) format("opentype");
+}
+@font-face{
+    font-family: mainlux-semibold;
+    src: url(../assets/fonts/FontsFree-Net-Mainlux-Semi-Bold.ttf) format("truetype");
+}
+@font-face{
+    font-family: mainlux-bold;
+    src: url(../assets/fonts/FontsFree-Net-Mainlux-Bold.ttf) format("truetype");
+}
+
+.home5{
+    background: white;
+    width:100vw;  
+    max-width:1920px;
+    margin:auto;
+}
+
+.home5-heading{
+    text-align: center;
+    margin-top: 14%;
+    text-align: center;
+    font-family: mainlux-semibold;
+    font-size: 3em;
+    color: #3d352e;
+    line-height: 1%;
+}
+
+.home5-left-hr{
+    margin-top: 0.8em;
+    height: 3px;
+    border: none;
+    background: #f3cc52;
+    width: 6em;
+}
+.home5-slider-container{
+    margin-left: 4vw;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    align-items: center;
+   
+    overflow: hidden;
+    
+}
+
+#home5-slider .slick-slide img {
+    width: 45%;
+  }
+
+
+  @media all and (max-width:400px) 
+  {
+  
+  .home5-heading{
+    text-align: center;
+    margin-top: 14%;
+    text-align: center;
+    font-family: mainlux;
+    font-weight:bolder;
+    font-size: 3em;
+    color: #3d352e;
+    line-height: 1%;
+}
+  }
